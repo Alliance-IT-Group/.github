@@ -117,27 +117,6 @@ We use multiple layers of security scanning:
 - Code reviews with security focus
 - Third-party security assessments annually
 
-## 🏆 Bug Bounty Program
-
-### Scope
-We operate a private bug bounty program for critical projects. Security researchers may be eligible for rewards based on:
-
-- **Severity of the vulnerability**
-- **Quality of the report**
-- **Impact on users and systems**
-
-### Rewards
-- **Critical**: $500 - $2,000
-- **High**: $250 - $500
-- **Medium**: $100 - $250
-- **Low**: $50 - $100
-
-### Eligibility
-- Follow responsible disclosure guidelines
-- Do not access user data or perform destructive testing
-- Provide detailed reproduction steps
-- Allow reasonable time for fix before public disclosure
-
 ## 📚 Security Resources
 
 ### Training and Documentation
@@ -157,7 +136,7 @@ We operate a private bug bounty program for critical projects. Security research
 
 ### Emergency Contacts
 For urgent security matters outside business hours:
-- **Emergency Hotline**: +1-XXX-XXX-XXXX
+- **Emergency Hotline**: +923154343753
 - **Emergency Email**: [fahadkhalid695@gmail.com](mailto:fahadkhalid695@gmail.com)
 
 ## 📋 Compliance and Standards
