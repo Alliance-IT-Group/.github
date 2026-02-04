@@ -1,0 +1,147 @@
+name: 🚀 Feature Request
+description: Suggest an idea for this project
+title: "[FEATURE]: "
+labels: ["enhancement", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a feature! 🌟
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please ensure you've completed these steps
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: I have read the project documentation
+          required: true
+        - label: This feature aligns with the project's goals
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: What category does this feature belong to?
+      options:
+        - User Interface/UX
+        - API/Backend
+        - Performance
+        - Security
+        - Documentation
+        - Developer Experience
+        - Integration
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How would you rate the priority of this feature?
+      options:
+        - Low - Nice to have
+        - Medium - Important for some users
+        - High - Important for most users
+        - Critical - Blocking functionality
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? What is the current pain point?
+      placeholder: |
+        As a [user type], I want [goal] so that [reason/benefit].
+        
+        Currently, when I [situation], I have to [current workaround], which is [problem].
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution in detail
+      placeholder: |
+        I would like to see [detailed description of the feature].
+        
+        This could work by [explanation of how it might work].
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Describe alternative solutions you've considered
+      placeholder: |
+        I also considered [alternative 1] but [reason why not ideal].
+        Another option might be [alternative 2] which [pros/cons].
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Cases
+      description: Describe specific use cases where this feature would be valuable
+      placeholder: |
+        1. When [scenario 1], users would [benefit]
+        2. In [scenario 2], this feature would [value]
+        3. For [user type], this enables [capability]
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups/Examples
+      description: Provide mockups, wireframes, or examples if applicable
+      placeholder: Attach images or provide links to examples
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define what "done" looks like for this feature
+      placeholder: |
+        - [ ] Users can [specific action]
+        - [ ] The feature handles [edge case]
+        - [ ] Error states are properly handled
+        - [ ] Feature is accessible and responsive
+        - [ ] Documentation is updated
+
+  - type: textarea
+    id: technical-considerations
+    attributes:
+      label: Technical Considerations
+      description: Any technical details, constraints, or considerations
+      placeholder: |
+        - Performance impact: [considerations]
+        - Security implications: [notes]
+        - Backward compatibility: [requirements]
+        - Dependencies: [any new dependencies needed]
+
+  - type: checkboxes
+    id: implementation
+    attributes:
+      label: Implementation
+      description: Are you willing to help implement this feature?
+      options:
+        - label: I'm willing to submit a pull request for this feature
+        - label: I can help with testing
+        - label: I can help with documentation
+        - label: I can provide detailed feedback during development
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or relevant information
+      placeholder: Add any other context about the feature request here...
